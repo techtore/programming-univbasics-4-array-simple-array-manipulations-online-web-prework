@@ -23,8 +23,8 @@ def using_push (array, color)
     end
     
     def using_shift (array)
-      my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-      my_favorite_cities.shift 
+      
+      array.shift(1)
     end
       
       def shift_with_args(array)
