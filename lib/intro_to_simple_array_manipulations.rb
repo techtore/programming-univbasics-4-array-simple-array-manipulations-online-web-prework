@@ -17,8 +17,8 @@ def using_push (array, color)
     end
     
     def pop_with_args(array) 
-      dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-      small_dogs = dog_breeds.pop
+      
+      array = dog_breeds.pop
     
     end
     
