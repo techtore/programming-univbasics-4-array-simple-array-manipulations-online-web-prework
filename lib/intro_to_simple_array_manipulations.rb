@@ -18,7 +18,7 @@ def using_push (array, color)
     
     def pop_with_args(array) 
       
-      array = dog_breeds.pop
+      array.pop(2)
     
     end
     
