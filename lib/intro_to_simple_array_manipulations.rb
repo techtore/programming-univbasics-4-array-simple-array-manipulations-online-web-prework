@@ -4,10 +4,10 @@ def using_push (array, color)
     p colors_in_the_rainbow
   end
   
-  def using_unshift(array, bouroughs)
-      bouroughs_in_nyc = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-      bouroughs_in_nyc.unshift("Staten Island")
-      p bouroughs_in_nyc
+  def using_unshift(array, "")
+      
+      array.unshift("")
+      
     end
     
     def using_pop(array)
