@@ -4,9 +4,9 @@ def using_push (array, color)
     p colors_in_the_rainbow
   end
   
-  def using_unshift(array, "")
+  def using_unshift(array, string)
       
-      array.unshift("")
+      array.unshift(string)
       
     end
     
