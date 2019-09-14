@@ -24,7 +24,7 @@ def using_push (array, color)
     
     def using_shift (array)
       
-      array.shift(1)
+      array.shift
     end
       
       def shift_with_args(array)
