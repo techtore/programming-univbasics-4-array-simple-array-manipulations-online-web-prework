@@ -56,7 +56,7 @@ def using_push (array, color)
    
    def using_delete(array)
    
-    instructors.delete("")
+    array.delete
   end
   
   def using_delete_at(array, integer)
