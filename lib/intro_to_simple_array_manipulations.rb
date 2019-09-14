@@ -40,7 +40,7 @@ def using_push (array, color)
       
   def using_insert(array, new_ele)
         
-    new_array = new_ele(4)
+    array = new_ele(4)
   end
       
   def using_uniq(array)
