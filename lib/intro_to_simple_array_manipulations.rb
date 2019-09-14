@@ -39,9 +39,8 @@ def using_push (array, color)
       end
       
   def using_insert(array, new_ele)
-         list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
-    another_language = "Python"
-    new_array = list_of_programming_languages.insert(4, another_language)
+        
+    new_array = new_ele(4)
   end
       
   def using_uniq(array)
