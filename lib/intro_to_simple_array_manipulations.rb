@@ -57,9 +57,9 @@ def using_push (array, color)
      p flat_array
    end
    
-   def using_delete(instructors)
-     instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-    instructors.delete("Steven")
+   def using_delete(array)
+    # instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+    instructors.delete("")
   end
   
   def using_delete_at(array, robots)
