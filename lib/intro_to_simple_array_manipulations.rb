@@ -46,8 +46,8 @@ def using_push (array, color)
   end
       
   def using_uniq(array)
-         haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-    new_array = haircuts.uniq
+        # haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+    new_array = array.uniq
    p new_array
  end
  
