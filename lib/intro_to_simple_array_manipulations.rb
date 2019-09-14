@@ -62,9 +62,9 @@ def using_push (array, color)
     instructors.delete("")
   end
   
-  def using_delete_at(array, robots)
+  def using_delete_at(array, integer)
     # famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-    deleted_robot = famous_robots.delete_at(2)
+    deleted_robot = famous_robots.delete_at(integer)
     p deleted_robot
   end
         
