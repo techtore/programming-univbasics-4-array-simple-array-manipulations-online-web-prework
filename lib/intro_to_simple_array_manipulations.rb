@@ -52,8 +52,8 @@ def using_push (array, color)
  end
  
  def using_flatten(array)
-     instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-     flat_array = instruments.flatten
+    # instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
+     flat_array = array.flatten
      p flat_array
    end
    
